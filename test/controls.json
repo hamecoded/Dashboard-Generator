@@ -217,7 +217,7 @@
 												"controlType" : "Table",
 												"controlId" : "table",
 												"controlName" : "tabel 1",
-												"title" : "An Optier Table",
+												"title" : "A Table",
 												"dataUrl" : "test/data/table_data1.json",
 												"urlParams" : ["4", "3"],
 												"enableSelection": true,
