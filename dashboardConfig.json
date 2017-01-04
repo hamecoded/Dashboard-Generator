@@ -1,0 +1,92 @@
+{
+	"default" : {
+		"dev_mode" : false,
+		"mock_data" : false,
+		"debug_net" : false,
+		"enable_polling" : true,
+		"enable_cors" : false,
+		"client_logging" : true,
+		"default_map" : "controls",
+		"xdefault_map" : "TableWithData",
+		"xdefault_map" : "GridLayoutTest"
+	},
+	"cors" : {
+		"dev_mode" : false,
+		"mock_data" : false,
+		"debug_net" : false,
+		"enable_polling" : true,
+		"enable_cors" : true,
+		"client_logging" : true,
+		"server_url" : "http://localhost:8080/WebEngine/servlet/WebEngine/{{map_name}}/"
+	},
+	"asaf" : {
+		"dev_mode" : false,
+		"mock_data" : false,
+		"debug_net" : false,
+		"enable_polling" : true,
+		"enable_cors" : true,
+		"client_logging" : true,
+		"server_url" : "http://acohen-w7:8080/WebEngine/servlet/WebEngine/{{map_name}}/"
+	},
+	"nopoll" : {
+		"dev_mode" : false,
+		"mock_data" : false,
+		"debug_net" : false,
+		"enable_polling" : false,
+		"client_logging" : true,
+		"enable_cors" : true,
+		"server_url" : "http://localhost:8080/WebEngine/servlet/WebEngine/{{map_name}}/"
+	},
+	"ariel" : {
+		"dev_mode" : false,
+		"mock_data" : false,
+		"debug_net" : false,
+		"enable_polling" : true,
+		"client_logging" : true,
+		"enable_cors" : true,
+		"server_url" : "http://agroenteman-w7:8080/WebEngine/servlet/WebEngine/{{map_name}}/"
+	},
+	"nadav" : {
+		"dev_mode" : false,
+		"mock_data" : false,
+		"debug_net" : false,
+		"client_logging" : true,
+		"enable_polling" : true,
+		"enable_cors" : true,
+		"server_url" : "http://nelyashiv-w7:8080/WebEngine/servlet/WebEngine/{{map_name}}/"
+	},
+	"yifat" : {
+		"dev_mode" : false,
+		"mock_data" : false,
+		"debug_net" : false,
+		"client_logging" : true,
+		"enable_polling" : true,
+		"enable_cors" : true,
+		"server_url" : "http://yshani-w7:8080/WebEngine/servlet/WebEngine/{{map_name}}/"
+	},
+	"production" : {
+		"dev_mode" : false,
+		"mock_data" : false,
+		"client_logging" : true,
+		"enable_polling" : true,
+		"enable_cors" : false, 
+		"server_url" : "http://localhost:8080/WebEngine/servlet/WebEngine/{{map_name}}/"
+	},
+	"development-standalone" : {
+		"dev_mode" : true,
+		"debug_net" : false,
+		"mock_data" : false,
+		"client_logging" : true,
+		"enable_polling" : false,
+		"enable_cors" : false,
+		"default_map" : "controls"
+	},
+	"development-engine" : {
+		"dev_mode" : false,
+		"mock_data" : false,
+		"enable_polling" : false,
+		"client_logging" : true,
+		"enable_cors" : true, 
+		"server_url" : "http://localhost:8080/WebEngine/servlet/WebEngine/{{map_name}}/"
+	}
+}

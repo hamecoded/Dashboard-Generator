@@ -1,0 +1,22 @@
+<div class="control-group datetimerangepicker">
+  {{#if label}}
+  <label class="control-label" for='o_{{controlId}}'>{{label}}</label>
+  {{/if}}
+  <div  id='o_{{controlId}}' class="controls">
+   <div class='input-append date start'>
+    <input data-format='dd/MM/yyyy hh:mm:ss' type='text'>
+    <span class='add-on'>
+        <i data-time-icon='icon-time' data-date-icon='icon-calendar'></i>
+    </span>
+    <label class='duration-units'>Start</label>
+   </div>
+    
+   <div class='input-append date end'>
+    <input data-format='dd/MM/yyyy hh:mm:ss' type='text'>
+    <span class='add-on'>
+        <i data-time-icon='icon-time' data-date-icon='icon-calendar'></i>
+    </span>
+    <label class='duration-units'>End</label>
+   </div>
+  </div>
+</div>

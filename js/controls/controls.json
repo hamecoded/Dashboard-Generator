@@ -1,0 +1,136 @@
+{
+	"Log" : {
+		"template" : [
+			"<div id='logger'>",
+			"</div>"
+		]
+	},
+	"Label" : {
+		"template" : ["<span class='label' id='o_{{controlId}}'>{{value}}</span>"]
+	},
+	"Text" : {
+		"template" : ["<p id='o_{{controlId}}'>{{value}}</p>"]
+	},
+	"Button" : {
+		"template" : "component"
+	},
+	"CheckBox" : {
+		"template" : "component",
+		"clz" : "CheckBox"
+	},
+	"RadioButtonGroup" : {
+		"template" : "radiobuttongroup.html",
+		"clz" : "RadioButtonGroup"
+	},
+	"TextInput" : {
+		"template" : "component"
+	},
+	"Duration" : {
+		"template" : "component"
+	},
+	"NumberBox" : {
+		"template" : "component"
+	},
+	"NumberInputBox" : {
+		"template" : "component"
+	},
+	"RangeField" : {
+		"template" : "component"
+	},
+	"ColorIndicator" : {
+		"template" :[
+			"<div id='o_{{controlId}}' class='colorindicator'>"
+		],
+		"clz" : "ColorIndicator"
+	},
+	"ListBox" : {
+		"template" : "listbox.html",
+		"clz" : "ListBox"
+	},
+	"ButtonDropDown" : {
+		"template" : "buttondropdown.html",
+		"prerequisites" : [
+			"vendor/bootstrap-select/bootstrap-select.min.css",
+			"vendor/bootstrap-select/bootstrap-select.min.js"
+		],
+		"clz" : "ButtonDropDown"
+	},
+	"DateTimePicker" : {
+		"template" : "datetimepicker.html",
+		"prerequisites" : [
+			"vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css",
+			"vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"
+		],
+		"clz" : "DateTimePicker"
+	},
+	"DateRangePicker" : {
+		"template" : "component",
+		"prerequisites" : [
+			"vendor/bootstrap-daterangepicker/daterangepicker.js",
+			"vendor/bootstrap-daterangepicker/daterangepicker.css"
+		],
+		"clz" : "DateRangePicker"
+	},
+	"DateTimeRangePicker" : {
+		"template" : "datetimerangepicker.html",
+		"prerequisites" : [
+			[
+				"vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js",
+				"vendor/bootstrap-daterangepicker/daterangepicker.js"	
+			],
+			"vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css",
+			"vendor/bootstrap-daterangepicker/daterangepicker.css"
+		],
+		"clz" : "DateTimeRangePicker"
+	},
+
+
+
+
+	"BarChartPolling" : {
+		"template" : [
+			"<div id='o_{{controlId}}'>",
+			"  <svg></svg>",
+			"</div>"
+		],
+		"prerequisites" : [
+			"vendor/nvd3/src/nv.d3.css",
+			[
+				"vendor/nvd3/lib/d3.v2.min.js",
+				"vendor/nvd3/nv.d3.min.js"
+			]
+		],
+		"clz" : "BarChartPollingControl"
+	},
+	"Chart" : {
+		"template" : [
+			"<div id='o_{{controlId}}'>",
+			"  <svg></svg>",
+			"</div>"
+		],
+		"prerequisites" : [
+			"vendor/nvd3/src/nv.d3.css",
+			[
+				"vendor/nvd3/lib/d3.v2.min.js",
+				"vendor/nvd3/nv.d3.min.js"
+			]
+		],
+		"clz" : "Chart"
+	},
+	"Table" : {
+		"template" : "datagrid.html",
+		"clz" : "TableControl",
+		"prerequisites" : [
+			"vendor/fuelux/dist/css/fuelux.min.css"
+		]
+	},
+
+
+	"GaugeChart" : {
+		"template" : [
+			"<div id='o_{{controlId}}'></div>"
+		],
+		"clz" : "Gauge"
+	}
+
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "key": "Cumulative Return",
+    "values": [
+      { 
+        "label" : "A" ,
+        "value" : 30
+      } , 
+      { 
+        "label" : "B" , 
+        "value" : 60
+      } , 
+      { 
+        "label" : "C" , 
+        "value" : 90
+      } 
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+{
+	"rows":[
+		{
+			"height" : "20%",
+			"panes" : [
+				{
+					"width" : 6,
+					"controls" : null,
+					"layout" : "horizontal"
+				},
+				{
+					"width" : 6,
+					"controls" : null
+				}
+			]
+		},	
+		{
+			"height" : "60%",
+			"panes" : [
+				{
+					"width" : 3,
+					"controls" : null
+				},
+ 				{
+					"width" : 6,
+					"rows" : [
+						{
+							"height" : "100%",
+							"panes" : [
+								{
+									"width" : 6,
+									"rows" : [
+										{
+											"height" : "100%",
+											"panes" : [
+												{
+													"width" : 6,
+													"title" : "Visualizations",
+													"controls" : null
+												},
+												{
+													"width" : 6,
+													"controls" : null
+												}
+											]
+										}
+									]
+								},
+								{
+									"width" : 6,
+									"controls" : null
+								}
+							]
+						}
+					]
+				},
+				{
+					"width" : 3,
+					"controls" : null
+				}
+			]
+		},	
+		{
+			"height" : "20%",
+			"panes" : [
+				{
+					"width" : 6,
+					"controls" : null
+				},
+				{
+					"width" : 6,
+					"controls" : null
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+<div class="control-group">
+  {{#if label}}
+  <label class="control-label" for='o_{{controlId}}'>{{label}}</label>
+  {{/if}}
+  <div class="controls">
+    <div id='o_{{controlId}}' class="input-prepend">
+    	{{#each value}}
+    	{{! for horizontal placement change class from "radiobtn" to "btn-group btn-group-vertical" }}
+    		<div class="radiobtn"> 
+				<input type="radio" id="o_{{../controlId}}_{{value}}" name="o_{{../controlId}}_radios" value="{{value}}" {{#if selected}} checked {{/if}}>
+				<label for='o_{{../controlId}}_{{value}}'>{{label}}</label>
+			</div>
+		{{/each}}
+    </div>
+  </div>
+</div>

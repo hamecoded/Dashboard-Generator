@@ -1,0 +1,114 @@
+
+"c": {
+    "BarChart_15.data": [
+        {
+            "d": null,  //series to delete name
+            "o": "reset"
+        }
+    ],
+    "Gauge_25.indicators": [
+        {
+            "d": null,
+            "o": "reset"
+        }
+    ]
+}
+ 
+
+"DateTimeBox_25.lBound": 1359669600000,
+"CheckBox_19.disabled": false,
+"TextField_18.label": "Full Name:",
+"CheckBox_19.checked": true,
+"TextField_18.readOnly": false,
+"CheckBox_19.label": "I Agree",
+"Label_20.invisible": false,
+"DateRange_28.toValue": 1363858680000,
+"DateTimeBox_25.label": "Date:",
+"DateRange_28.maxToValue": 1363858680000,
+"DateRange_28.fromValue": 1317634620000,
+"TextField_18.value": "",
+"Button_27.label": "Copy date to from value of date range >>",
+"Button_3.label": "clear text",
+"DateTimeBox_25.readOnly": false,
+"DateTimeBox_25.uBound": 1360706400000,
+"DateRange_28.minFromValue": 1317634620000,
+"Button_27.disabled": false,
+"DateTimeBox_25.value": 1360620000000,
+"Button_3.disabled": false,
+"Label_20.innerHTML": "Make me visible/invisible by checkbox"
+        
+
+{
+    "controlType": "PieChart",
+    "chartTitle": "Pie title",
+    "chartBorderStyle": "Heavy",
+    "manuallySetSize": false,
+    "plotRadius": 0,
+    "itemValueType": "WholeNumber",
+    "itemLabelDisplay": "PERCENTAGE",
+    "useTooltips": true,
+    "showLegend": true,
+    "legendBorderStyle": "Heavy",
+    "controlId": 150,
+    "controlName": "My PieChart"
+}
+{
+    "controlType": "LineChart",
+    "chartTitle": "",
+    "xAxisName": "X Axis",
+    "yAxisName": "Y Axis",
+    "lineType": "SmoothLine",
+    "legendPosition": "RIGHT",
+    "showLegend": true,
+    "xType": "WholeNumber",
+    "yType": "DecimalNumber",
+    "chartBorderStyle": "None",
+    "legendBorderStyle": "None",
+    "maxNumberOfSeries": 50,
+    "maxNumberOfValuesPerSeries": 100,
+    "controlId": 146,
+    "controlName": "My LineChart"
+}
+{
+    "controlType": "BarChart",
+    "title": "",
+    "borderStyle": "None",
+    "barColor": "0xffffffff",
+    "barOutline": "None",
+    "xAxisTitle": "yifat",
+    "yAxisTitle": "oded",
+    "rotateLabels": 45,
+    "yAxisType": "Number",
+    "controlId": 157,
+    "controlName": "My BarChart"
+}
+
+
+ {
+    "listType":"WholeNumber",
+    "isMultiSelection":false,
+    "valuesLimit":10,
+    "shownValuesLimit":5,
+    "values":[
+        {
+           "value":"1",
+           "label":"1"
+        }
+    ],
+    "controlId":6,
+    "controlName":"Index List",
+    "controlType":"ListBox"
+}
+
+{
+     "minDate":1362033534330,
+     "maxDate":1362638334330,
+     "step":60000,
+     "value":[
+        1362033534330,
+        1362638334330
+     ],
+     "controlId":21,
+     "controlName":"My DateRange",
+     "controlType":"DateRange"
+}

@@ -1,0 +1,375 @@
+{ 
+	"data" : {"v":{},"pt":250,"cv":{"Table_table.content":[{"id":3,"col1":1362033534330,"col3": "Warning", "col4" : { "amount" : 37462 }, "col2": "some polled data"}]}} ,
+	"layout" : {
+		"rows":[
+			{
+				"height" : "100%",
+				"panes" : [
+					{
+						"width" : 5,
+						"layout" : "vertical",
+						"title" : "Vertically Aligned Controls",
+						"controls" : [
+							{
+								"controlType" : "Label",
+								"controlId" : "label",
+								"controlName" : "label",
+								"label" : "Heading <H3> Example"
+							},
+							{
+								"controlType" : "Text",
+								"controlId" : "text",
+								"controlName" : "text",
+								"value" : "Paragraph text example"
+							},
+							{
+								"controlType"   : "DateRangePicker",
+								"controlId" : "daterangepicker",
+								"controlName" : "Date Range Picker",
+								"label" : "a date range picker",
+								"value"  :  [1356881300000,1386881300000]
+							},
+							{
+								"controlType"   : "DateTimeRangePicker",
+								"controlId" : "datetimerangepicker",
+								"controlName" : "Date Time Range Picker",
+								"label" : "a date time range picker",
+								"value"  :  [1356881300000,1386881300000],
+								"min" :  1306881300000,
+								"max" :  1856881300000
+							},
+							{
+								"controlType"   : "DateTimePicker",
+								"controlId" : "datetimepicker",
+								"controlName" : "Date Time Picker",
+								"label" : "a datetime picker",
+								"value"  : 1356881300000
+							},
+							{
+								"controlType": "TextInput",
+								"controlId"  : "textfield",
+								"controlName": "My TextField",
+								"label": "text input with label:",
+								"placeholder": "some text input with label",
+								"value": "test value",
+								"disabled": true
+							},
+							{
+								"controlType" : "RangeField",
+								"controlId" : "rangefield",
+								"controlName" : "rangefield",
+								"label" : "a range field",
+								"min" : 1,
+								"max" : 100,
+								"step" : 1
+							},
+							{
+								"controlType": "NumberInputBox",
+								"controlId": "numberbox",
+								"controlName": "My NumberInputBox",
+								"label": "a number box:",
+								"placeholder" : "no spinners",
+								"disabled": false,
+								"step": 1,
+								"value" : 6
+							},
+							{
+								"controlType": "NumberBox",
+								"controlId": "numericstepper",
+								"controlName": "My NumberBox",
+								"label": "a nummeric stepper:",
+								"placeholder" : "number box",
+								"value": 5,
+								"disabled": false,
+								"step": 1
+							},
+							{
+								"controlType"   : "Duration",
+								"controlId" : "duration",
+								"controlName" : "Duration",
+								"label" : "duration",
+								"value"  : 20,
+								"units" : "Sec"
+
+							},
+							{
+							  "controlId": "checkbox",
+							  "controlName": "some checkbox",
+							  "label": "some checkbox",
+							  "controlType": "CheckBox",
+							  "event" : "onChange",
+							  "value" : true	
+							},
+							{
+							  "controlId": "radios",
+							  "controlName": "some radio buttons",
+							  "label": "some radio",
+							  "controlType": "RadioButtonGroup",
+							  "value" : [
+									{
+										"label":"1 ms",
+										"value":"1",
+										"selected" : true
+									},
+									{
+										"label":"4 sec",
+										"value":"4000"
+									}
+								]
+							},
+							{
+			                     "controlType":"ListBox",
+			                     "controlId": "listbox",
+			                     "controlName":"My ListBox",
+			                     "listType":"Duration",
+			                     "isMultiSelection":true,
+			                     "valuesLimit":5,
+			                     "label" : "a listbox",
+			                     "size":3,
+			                     "event" : "onSelected",
+			                     "value":[
+			                        {
+			                           "label":"1 ms",
+			                           "value":"1",
+										"selected" : true
+			                        },
+			                        {
+			                           "label":"4 sec",
+			                           "value":"4000"
+			                        },
+			                        {
+			                           "label":"6 min",
+			                           "value":"2400",
+										"selected" : true
+			                        },
+			                        {
+			                           "label":"8 hr",
+			                           "value":"234242"
+			                        },
+			                        {
+			                           "label":"3 days",
+			                           "value":"34234234"
+			                        }
+			                     ]
+			                  },
+								{
+									"controlType" : "Button",
+									"controlId" : "button",
+									"controlName" : "button",
+									"value" : "Button",
+									"event" : "onClick"
+								},
+								{
+									"controlType" : "ButtonDropDown",
+									"controlId" : "ButtonDropDown",
+									"controlName" : "button drop down",
+									"label" : "My DropDown",
+									"value":[
+				                        {
+				                           "label":"1 ms",
+				                           "value":"1"
+				                        },
+				                        {
+				                           "label":"4 sec",
+				                           "value":"4000"
+				                        },
+				                        {
+				                           "label":"6 min",
+				                           "value":"2400"
+				                        },
+				                        {
+				                           "label":"8 hr",
+				                           "value":"234242"
+				                        },
+				                        {
+				                           "label":"3 days",
+				                           "value":"34234234"
+				                        }
+				                     ]
+								},
+								{
+									"controlType":"ColorIndicator",
+									"controlName":"My ColorIndicator",
+									"controlId": "colorindicator",
+									"radius":20,
+									"value" : "Warning",
+									"dataType" : "String",
+									"greenText" : "OK",
+									"yellowText" : "Warning",
+									"redText" : "Error"
+								}
+							
+						]
+					},
+					{
+						"width" : 7,
+						"title" : "Visualizations",
+						"rows" : [
+							{
+								"height" : "50%",
+								"panes" : [
+									{
+										"width" : 6,
+										"layout": "horizontal",
+										"title" : "Table",
+										"controls" : [
+											{
+												"controlType" : "Table",
+												"controlId" : "table",
+												"controlName" : "tabel 1",
+												"title" : "An Optier Table",
+												"dataUrl" : "test/data/table_data1.json",
+												"urlParams" : ["4", "3"],
+												"enableSelection": true,
+												"event" : "onSelected",
+									            "rowsLimit": 100,
+									            "columns": [
+									            	{
+									                  "property": "col3",
+									                  "label": "Status",
+									                  "type" : "ColorIndicator",
+													  "dataType" : "String",
+													  "greenText" : "OK",
+													  "yellowText" : "Warning",
+													  "redText" : "Error"
+									                },
+									            	{
+									                  "property": "col1",
+									            	  "type" : "Date",
+									                  "label": "Date"
+									                },
+									                {
+									                  "property": "col2",
+									                  "label": "Name"
+									                },
+									                {
+									                  "property": "col4",
+									                  "label": "Duration",
+									                  "type" : "Duration"
+									                }
+
+									            ],
+									            "value" : [
+									            	{
+									            		"id" : 1,
+									            		"col1" : 1362661448971,
+									            		"col2" : "bla",
+									            		"col3" : "OK",
+									            		"col4" : { "amount" : 6300 }
+									            	},
+									            	{
+									            		"id" : 2,
+									            		"col1" : 1362661448971,
+									            		"col2" : "music",
+									            		"col3" : "Error",
+									            		"col4" : { "amount" : 3600 }
+									            	}
+									            ]
+											}
+										]
+									},
+									{
+										"width" : 6,
+										"layout": "horizontal",
+										"title" : "Bar Chart Example",
+										"controls" : [
+											{
+												"controlType" : "BarChart",
+												"controlId" : "barchart",
+												"controlName" : "bar chart",
+												"value" : [
+													{
+														"key" : "series1",
+														"values" : [
+															{
+																"x" : 2,
+																"y" : 10
+															},
+															{
+																"x" : 4,
+																"y" : 50
+															},
+															{
+																"x" : 6,
+																"y" : 100
+															}
+														] 
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"height" : "50%",
+								"panes" : [
+									{
+										"width" : 6,
+										"layout": "horizontal",
+										"controls" : [
+											{
+												"controlType" : "LineChart",
+												"controlId" : "linechart",
+												"controlName" : "line chart",
+												"value" : [
+													{
+														"key" : "series1",
+														"values" : [
+															{
+																"x" : 2,
+																"y" : 10
+															},
+															{
+																"x" : 4,
+																"y" : 50
+															},
+															{
+																"x" : 6,
+																"y" : 100
+															}
+														] 
+													}
+												]
+											}
+										]
+									},
+									{
+										"width" : 6,
+										"layout": "horizontal",
+										"controls" : [
+											{
+												"controlType" : "PieChart",
+												"controlId" : "piechart",
+												"controlName" : "pie chart",
+												"value" : [
+													{
+														"key" : "series1",
+														"values" : [
+															{
+																"x" : 2,
+																"y" : 10
+															},
+															{
+																"x" : 4,
+																"y" : 50
+															},
+															{
+																"x" : 6,
+																"y" : 100
+															}
+														] 
+													}
+												]
+											}
+										]
+									}
+								]
+							}	
+						]
+					}
+				]
+			}
+		]
+	}
+}

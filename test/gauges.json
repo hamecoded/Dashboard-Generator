@@ -1,0 +1,292 @@
+{ 
+	"data" : {"v":{},"pt":5000,"cv":{}} ,
+	"layout" : {
+		"rows":[
+			{
+				"height" : "50%",
+				"panes" : [
+					{
+						"width" : 4,
+						"layout" : "horizontal",
+						"controls" : [
+							{
+								"manuallySetSize":false,
+								"width":0,
+								"height":0,
+								"borderStyle":"Standard",
+								"minValue":"0",
+								"maxValue":"100",
+								"gaugeType":"SemiCircular",
+								"itemValueType":"WholeNumber",
+								"gaugeStyle":"Grey",
+								"showAdditionalIndicators":true,
+								"additionalIndicators":{
+									"NullLocations":"rgb(153,0,0)",
+									"RealLocations":"rgb(26,77,26)"
+								},
+								"controlId":2,
+								"controlName":"Location Gauge",
+								"controlType":"GaugeChart"
+							}
+						]
+					},
+					{
+						"width" : 4,
+						"controls" : [
+							{
+								"manuallySetSize":false,
+								"width":0,
+								"height":0,
+								"borderStyle":"Standard",
+								"minValue":"0",
+								"maxValue":"1000",
+								"gaugeType":"Circular",
+								"itemValueType":"Decimal",
+								"gaugeStyle":"Black",
+								"showAdditionalIndicators":true,
+								"additionalIndicators":{
+									"NullLocations":"rgb(153,0,0)",
+									"RealLocations":"rgb(26,77,26)"
+								},
+								"controlId":1,
+								"controlName":"Location Gauge",
+								"controlType":"GaugeChart"
+							}
+						],
+						"layout" : "vertical"
+					},
+					{
+						"width" : 4,
+						"controls" : [
+							{
+								"manuallySetSize":false,
+								"width":0,
+								"height":0,
+								"borderStyle":"Standard",
+								"minValue":"-50",
+								"maxValue":"50",
+								"gaugeType":"SemiCircular",
+								"itemValueType":"WholeNumber",
+								"gaugeStyle":"Green",
+								"showAdditionalIndicators":true,
+								"controlId":3,
+								"controlName":"Location Gauge",
+								"controlType":"GaugeChart"
+							}
+						],
+						"layout" : "vertical"
+					}
+				]
+			},	
+			{
+				"height" : "25%",
+				"panes" : [
+					{
+						"width" : 4,
+						"controls" : [
+							{
+								"manuallySetSize":false,
+								"width":0,
+								"height":0,
+								"borderStyle":"Standard",
+								"minValue":"0",
+								"maxValue":"10",
+								"gaugeType":"Horizontal",
+								"itemValueType":"WholeNumber",
+								"gaugeStyle":"Green",
+								"controlId":4,
+								"controlName":"Location Gauge",
+								"controlType":"GaugeChart"
+							}
+						],
+						"layout" : "horizontal"
+					},
+					
+					{
+						"width" : 2,
+						"controls" : [
+							{
+								"manuallySetSize":false,
+								"width":0,
+								"height":0,
+								"borderStyle":"Standard",
+								"minValue":"0",
+								"maxValue":"500",
+								"gaugeType":"Circular",
+								"itemValueType":"WholeNumber",
+								"gaugeStyle":"Grey",
+								"showAdditionalIndicators":true,
+								"additionalIndicators":{
+									"NullLocations":"rgb(153,0,0)",
+									"RealLocations":"rgb(26,77,26)"
+								},
+								"controlId":6,
+								"controlName":"Location Gauge",
+								"controlType":"GaugeChart"
+							}
+						],
+						"layout" : "horizontal"
+					},
+					{
+						"width" : 2,
+						"controls" : [
+							{
+								"manuallySetSize":false,
+								"width":0,
+								"height":0,
+								"borderStyle":"Standard",
+								"minValue":"0",
+								"maxValue":"400",
+								"gaugeType":"Circular",
+								"itemValueType":"Decimal",
+								"gaugeStyle":"Green",
+								"controlId":13,
+								"controlName":"Location Gauge",
+								"controlType":"GaugeChart"
+
+							}
+						],
+						"layout" : "horizontal"
+					},
+					{
+						"width" : 4,
+						"controls" : [
+							{
+								"manuallySetSize":false,
+								"width":0,
+								"height":0,
+								"borderStyle":"Standard",
+								"minValue":"-5",
+								"maxValue":"5",
+								"gaugeType":"Horizontal",
+								"itemValueType":"WholeNumber",
+								"gaugeStyle":"Grey",
+								"controlId":12,
+								"controlName":"Location Gauge",
+								"controlType":"GaugeChart"
+							}
+						],
+						"layout" : "horizontal"
+					}
+					
+				]
+			},
+			{
+				"height" : "25%",
+				"panes" : [
+					{
+						"width" : 1,
+						"controls" : [
+							{
+								"manuallySetSize":false,
+								"width":0,
+								"height":0,
+								"borderStyle":"Standard",
+								"minValue":"0",
+								"maxValue":"400",
+								"gaugeType":"Vertical",
+								"itemValueType":"WholeNumber",
+								"gaugeStyle":"Grey",
+								"controlId":14,
+								"controlName":"Location Gauge",
+								"controlType":"GaugeChart"
+							}
+						],
+						"layout" : "horizontal"
+					},
+					{
+						"width" : 1,
+						"controls" : [
+							{
+								"manuallySetSize":false,
+								"width":0,
+								"height":0,
+								"borderStyle":"Standard",
+								"minValue":"0",
+								"maxValue":"50",
+								"gaugeType":"Vertical",
+								"itemValueType":"WholeNumber",
+								"gaugeStyle":"Green",
+								"controlId":15,
+								"controlName":"Location Gauge",
+								"controlType":"GaugeChart"
+							}
+						],
+						"layout" : "horizontal"
+					},
+					{
+						"width" : 1,
+						"controls" : [
+							{
+								"manuallySetSize":false,
+								"width":0,
+								"height":0,
+								"borderStyle":"Standard",
+								"minValue":"0",
+								"maxValue":"10000",
+								"gaugeType":"Vertical",
+								"itemValueType":"WholeNumber",
+								"gaugeStyle":"Black",
+								"showAdditionalIndicators":true,
+								"additionalIndicators":{
+									"NullLocations":"rgb(153,0,0)",
+									"RealLocations":"rgb(26,77,26)"
+								},
+								"controlId":7,
+								"controlName":"Location Gauge",
+								"controlType":"GaugeChart"
+							}
+						],
+						"layout" : "horizontal"
+
+					},
+					{
+						"width" : 5,
+						"controls" : [
+							{
+								"manuallySetSize":false,
+								"width":0,
+								"height":0,
+								"borderStyle":"Standard",
+								"minValue":"-100",
+								"maxValue":"100",
+								"gaugeType":"SemiCircular",
+								"itemValueType":"WholeNumber",
+								"gaugeStyle":"Black",
+								"showAdditionalIndicators":true,
+								"additionalIndicators":{
+									"NullLocations":"rgb(153,0,0)",
+									"RealLocations":"rgb(26,77,26)"
+								},
+								"controlId":70,
+								"controlName":"Location Gauge",
+								"controlType":"GaugeChart"
+							}
+						],
+						"layout" : "horizontal"
+					},
+					{
+						"width" : 4,
+						"controls" : [
+							{
+								"manuallySetSize":false,
+								"width":0,
+								"height":0,
+								"borderStyle":"Standard",
+								"minValue":"-1",
+								"maxValue":"1",
+								"gaugeType":"Horizontal",
+								"itemValueType":"Decimal",
+								"gaugeStyle":"Black",
+								"controlId":80,
+								"controlName":"Location Gauge",
+								"controlType":"GaugeChart"
+							}
+						],
+						"layout" : "horizontal"
+					}
+				]
+			}
+		]
+	}
+}

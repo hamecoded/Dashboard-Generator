@@ -1,0 +1,16 @@
+<div class="control-group">
+  {{#if label}}
+  <label class="control-label" for='o_{{controlId}}'>{{label}}</label>
+  {{/if}}
+  <div class="controls">
+    <div class="input-prepend">
+     
+		<select  id='o_{{controlId}}' class="selectpicker" {{#disabled}} readonly disabled {{/disabled}}>
+			{{#each value}}
+				<option value='{{value}}'>{{label}}</option>
+			{{/each}}
+		</select>
+           
+    </div>
+  </div>
+</div>
